@@ -12,11 +12,11 @@ namespace Vs2017Features
             Console.ReadKey();
         }
 
-
         public static async Task TestAsync()
         {
             await Task.CompletedTask;
         }
+
         public static  List<Client> GetList()
         {
             return null;
