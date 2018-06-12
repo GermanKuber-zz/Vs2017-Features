@@ -8,8 +8,6 @@ namespace Vs2017Features
     {
         public Example5()
         {
-
-
             var distanceDouble = Math.Sqrt(12);
             int distanceInt = Math.Abs(12);
         }

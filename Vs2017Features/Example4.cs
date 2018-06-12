@@ -9,7 +9,7 @@ namespace Vs2017Features
         List<Client> _clients = new List<Client>();
         public Example4()
         {
-            var count = (from client in _clients
+            int count = (from client in _clients
                          where client.Age > 26 &&
                          client.Name.Length == 5
                          select client).Sum(x => x.Age);
