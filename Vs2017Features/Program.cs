@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Vs2017Features
@@ -7,16 +8,18 @@ namespace Vs2017Features
     {
         public static void Main(string[] args)
         {
-            new Client().Speak();
-            Console.WriteLine("Test");
 
-            new Example6();
             Console.ReadKey();
         }
+
 
         public static async Task TestAsync()
         {
             await Task.CompletedTask;
+        }
+        public static  List<Client> GetList()
+        {
+            return null;
         }
     }
 }

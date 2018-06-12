@@ -12,8 +12,7 @@ namespace Vs2017Features
         {
 
 
-        }   
-
+        }
 
         public class Person {
         }

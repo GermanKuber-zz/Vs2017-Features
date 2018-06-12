@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Vs2017Features
 {
-    class Client
+  public  class Client
     {
         public string Name { get; set; }
         public string LastName { get; set; }
